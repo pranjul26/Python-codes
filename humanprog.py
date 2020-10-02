@@ -87,9 +87,7 @@ while True:
 	  pyttsx3.speak("whatsApp is opening")
 	  os.system("chrome https://web.whatsapp.com/")
 
-	elif ("Python" in p) or ("what is python" in p) or ("something about python" in p):
-	  os.system("chrome www.python.org")
-	  pyttsx3.speak("U can search anything about python here")
+
 
 	elif (("run" in p) or ("start" in p) or ("open" in p)) and ("youtube" in p):
 	  os.system("chrome www.youtube.com")
